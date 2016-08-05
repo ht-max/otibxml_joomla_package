@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fields name="attribs" >
+        <fieldset name="otib" label="Otib XML" >
+            <field
+                    name="curNaam"
+                    type="text"
+                    label="OTIB_CURNAAM"
+                    maxlength = "200"
+                    required = "true"
+                    size="200"
+
+                    />
+            <field
+                    name="curBestemdVoor"
+                    type="textarea"
+                    label="OTIB_BESTEMDVOOR"
+                    required = "true"
+                    size="200"
+                    />
+            <field
+                    name="curPrijsCursus"
+                    type="text"
+                    label="OTIB_PRIJSCURSUS"
+                    filter="int"
+                    />
+            <field
+                    name="curMaximumDeelnemers"
+                    type="text"
+                    label="OTIB_MAXDEELNEMERS"
+                    filter="int"
+                    />
+            <field
+                    name="curWebsiteUrl"
+                    type="url"
+                    label="OTIB_URL"
+                    maxlength = "300"
+                    />
+            <field
+                    name="curOmschrijvingKort"
+                    type="textarea"
+                    label="OTIB_OMSCH"
+                    required="true"
+                    />
+
+            <field
+                    name="curDuurCursus"
+                    type="number"
+                    default="0"
+                    label="OTIB_DURCURS"
+                    filter="int"
+                    min="0"
+                    />
+            <field
+                    name="curDuurCursusEenheid"
+                    type="list"
+                    label="OTIB_DURCURSUNIT"
+                    filter="int"
+                    default = "1"
+                    >
+                        <option value="1">OTIB_TU_HR</option>
+                        <option value="2">OTIB_TU_HALFDAY</option>
+                        <option value="3">OTIB_TU_DAY</option>
+                        <option value="4">OTIB_TU_WEEK</option>
+                        <option value="5">OTIB_TU_MONTH</option>
+                        <option value="6">OTIB_TU_QUARTERS</option>
+                        <option value="7">OTIB_TU_YEARS</option>
+            </field>
+
+
+            <field
+                    name="curDuurDoorloop"
+                    type="number"
+                    label="OTIB_DUURDOORLOOP"
+                    filter="int"
+                    min="0"
+                    default = "0"
+                    />
+            <field
+                    name="curDuurDoorloopEenheid"
+                    type="list"
+                    label="OTIB_DUURDOORLOOPUNIT"
+                    filter="int"
+                    default = "1"
+                    >
+                        <option value="1">OTIB_TU_HR</option>
+                        <option value="2">OTIB_TU_HALFDAY</option>
+                        <option value="3">OTIB_TU_DAY</option>
+                        <option value="4">OTIB_TU_WEEK</option>
+                        <option value="5">OTIB_TU_MONTH</option>
+                        <option value="6">OTIB_TU_QUARTERS</option>
+                        <option value="7">OTIB_TU_YEARS</option>
+            </field>
+
+            <field
+                    name="curZelfstudie"
+                    type="checkbox"
+                    label="OTIB_ZELFSTUDIE"
+                    value="1"
+                    default = "0"
+                    min="0"
+                    />
+            <field
+                    name="curLocatie"
+                    label="OTIB_LOCATIE"
+                    type="text"
+                    description="JTAG_DESC"
+                    />
+        </fieldset>
+    </fields>
+</form>

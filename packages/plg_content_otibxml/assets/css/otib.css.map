@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,2BAAc;EACZ,KAAK,EAAE,KAAK;AACd,sBAAS;EACP,MAAM,EAAE,CAAC;EACT,6DAAe;IACb,KAAK,EAAE,KAAK;IACZ,+FAAkB;MAChB,KAAK,EAAE,IAAI;MACX,MAAM,EAAE,IAAI;EAChB,+BAAQ;IACN,MAAM,EAAE,KAAK",
+"sources": ["otib.sass"],
+"names": [],
+"file": "otib.css"
+}

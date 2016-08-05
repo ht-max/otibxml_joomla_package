@@ -1,0 +1,13 @@
+#attrib-otib .control-label {
+  width: 300px; }
+#attrib-otib .controls {
+  margin: 0; }
+  #attrib-otib .controls input, #attrib-otib .controls textarea {
+    width: 400px; }
+    #attrib-otib .controls input[type='checkbox'], #attrib-otib .controls textarea[type='checkbox'] {
+      width: 18px;
+      height: 18px; }
+  #attrib-otib .controls textarea {
+    height: 100px; }
+
+/*# sourceMappingURL=otib.css.map */

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+    <name>Otib XML</name>
+    <author>Joomla! Project</author>
+    <creationDate>March 2015</creationDate>
+    <copyright>Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>ht-max@yandex.ua</authorEmail>
+    <version>1.0</version>
+    <description>Show otib xml info in frontend</description>
+    <files>
+        <filename module="mod_otibxml">mod_otibxml.php</filename>
+        <folder>tmpl</folder>
+        <filename>index.html</filename>
+        <filename>mod_otibxml.xml</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="advanced">
+                <field
+                        name="layout"
+                        type="modulelayout"
+                        label="JFIELD_ALT_LAYOUT_LABEL"
+                        description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+            </fieldset>
+            <fieldset name="basic">
+
+                <field
+                        name="curNaam"
+                        type="radio"
+                        class="btn-group btn-group-yesno"
+                        default="0"
+                        label="OTIB_CURNAAM"
+                        >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+
+                <field
+                        name="curBestemdVoor"
+                        type="radio"
+                        class="btn-group btn-group-yesno"
+                        default="0"
+                        label="OTIB_BESTEMDVOOR"
+                        >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+
+                <field
+                        name="curPrijsCursus"
+                        type="radio"
+                        class="btn-group btn-group-yesno"
+                        default="0"
+                        label="OTIB_PRIJSCURSUS"
+                        >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+
+                <field
+                        name="curMaximumDeelnemers"
+                        type="radio"
+                        class="btn-group btn-group-yesno"
+                        default="0"
+                        label="OTIB_MAXDEELNEMERS"
+                        >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+
+                <field
+                        name="curWebsiteUrl"
+                        type="radio"
+                        class="btn-group btn-group-yesno"
+                        default="0"
+                        label="OTIB_URL"
+                        >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+
+                <field
+                        name="curOmschrijvingKort"
+                        type="radio"
+                        class="btn-group btn-group-yesno"
+                        default="0"
+                        label="OTIB_OMSCH"
+                        >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+
+                <field
+                        name="curDuurCursus"
+                        type="radio"
+                        class="btn-group btn-group-yesno"
+                        default="0"
+                        label="OTIB_DURCURS"
+                        >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+
+                <field
+                        name="curDuurDoorloop"
+                        type="radio"
+                        class="btn-group btn-group-yesno"
+                        default="0"
+                        label="OTIB_DUURDOORLOOP"
+                        >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+
+                <field
+                        name="curZelfstudie"
+                        type="radio"
+                        class="btn-group btn-group-yesno"
+                        default="0"
+                        label="OTIB_ZELFSTUDIE"
+                        >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+
+                <field
+                        name="curLocatie"
+                        type="radio"
+                        class="btn-group btn-group-yesno"
+                        default="0"
+                        label="OTIB_LOCATIE"
+                        >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+
+            </fieldset>
+
+        </fields>
+    </config>
+</extension>

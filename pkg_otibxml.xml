@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <extension type="package" version="1.6" method="upgrade">
+ <name>Otib XML</name>
+ <author>Joomla</author>
+ <creationDate>March 2015</creationDate>
+ <packagename>otibxml</packagename>
+ <version>1.0.0</version>
+ <url>http://www.yoururl.com/</url>
+ <packager>Hello World Package Team</packager>
+ <packagerurl>http://www.yoururl.com/</packagerurl>
+ <description>Example package to combine multiple extensions</description>
+ <update>http://www.updateurl.com/update</update>
+ <files folder="packages">
+   <file type="component" id="com_otibxml" >com_otibxml.zip</file>
+   <file type="module" id="otibxml" client="site">mod_otibxml.zip</file>
+   <file type="plugin" id="otibxml" group="content">plg_content_otibxml.zip</file>
+ </files>
+ </extension>
